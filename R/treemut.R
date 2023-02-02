@@ -79,6 +79,7 @@ assign_to_tree=function#Assigns mutations to a tree topology and sets the branch
   ### and a data.frame "summary" that is aligned with the input matrices and maps the mutations to branches:
   ### summary$edge_ml : Specifies the index of the branch in the tree edge matrix.  
   ### summary$pval :  A heuristic pvalue assessing the hypothesis that the mutation is consistent with the provided tree topology.   
+  print("this is Ruxandra's version")
 }
 
 assign_to_df=function(mtr,dep,df,error_rate=rep(0.01,dim(mtr)[2]),maxits=5){
